@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amma Bojanam - Authentic Indian Cuisine</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>Amma Bojanam</h2>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#menu" class="nav-link">Menu</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Amma Bojanam</h1>
+            <p class="hero-subtitle">Authentic Indian Cuisine with Love</p>
+            <p class="hero-description">Experience the taste of home-cooked meals prepared with traditional recipes and fresh ingredients</p>
+            <div class="hero-buttons">
+                <a href="#menu" class="btn btn-primary">View Menu</a>
+                <a href="#contact" class="btn btn-secondary">Book Table</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="https://images.unsplash.com/photo-1565557623262-b51c2513a641?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Indian Food Spread">
+        </div>
+    </section>
+
+    <!-- Special Features -->
+    <section class="features">
+        <div class="container">
+            <div class="features-grid">
+                <div class="feature-card">
+                    <i class="fas fa-utensils"></i>
+                    <h3>Fresh Ingredients</h3>
+                    <p>We use only the finest and freshest ingredients sourced locally</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-heart"></i>
+                    <h3>Made with Love</h3>
+                    <p>Every dish is prepared with care and traditional family recipes</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-clock"></i>
+                    <h3>Quick Service</h3>
+                    <p>Fast and efficient service to ensure you enjoy your meal promptly</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="menu">
+        <div class="container">
+            <h2 class="section-title">Our Menu</h2>
+            <p class="section-subtitle">Discover our delicious selection of authentic Indian dishes</p>
+            
+            <div class="menu-categories">
+                <button class="category-btn active" data-category="starters">Starters</button>
+                <button class="category-btn" data-category="main-course">Main Course</button>
+                <button class="category-btn" data-category="breads">Breads</button>
+                <button class="category-btn" data-category="desserts">Desserts</button>
+            </div>
+
+            <div class="menu-grid">
+                <!-- Starters -->
+                <div class="menu-item" data-category="starters">
+                    <img src="https://images.unsplash.com/photo-1601050690597-df0568f70950?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80" alt="Samosa">
+                    <div class="menu-item-content">
+                        <h3>Samosa</h3>
+                        <p>Crispy pastry filled with spiced potatoes and peas</p>
+                        <span class="price">$4.99</span>
+                    </div>
+                </div>
+
+                <div class="menu-item" data-category="starters">
+                    <img src="https://images.unsplash.com/photo-1565557623262-b51c2513a641?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80" alt="Pakora">
+                    <div class="menu-item-content">
+                        <h3>Mixed Pakora</h3>
+                        <p>Assorted vegetables dipped in chickpea batter and fried</p>
+                        <span class="price">$5.99</span>
+                    </div>
+                </div>
+
+                <!-- Main Course -->
+                <div class="menu-item" data-category="main-course">
+                    <img src="https://images.unsplash.com/photo-1563379091339-03246963d60a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80" alt="Butter Chicken">
+                    <div class="menu-item-content">
+                        <h3>Butter Chicken</h3>
+                        <p>Tender chicken in rich tomato and butter gravy</p>
+                        <span class="price">$16.99</span>
+                    </div>
+                </div>
+
+                <div class="menu-item" data-category="main-course">
+                    <img src="https://images.unsplash.com/photo-1585937421612-70a008356fbe?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80" alt="Paneer Tikka">
+                    <div class="menu-item-content">
+                        <h3>Paneer Tikka</h3>
+                        <p>Grilled cottage cheese with aromatic spices</p>
+                        <span class="price">$14.99</span>
+                    </div>
+                </div>
+
+                <div class="menu-item" data-category="main-course">
+                    <img src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80" alt="Dal Makhani">
+                    <div class="menu-item-content">
+                        <h3>Dal Makhani</h3>
+                        <p>Slow-cooked black lentils with cream and butter</p>
+                        <span class="price">$12.99</span>
+                    </div>
+                </div>
+
+                <!-- Breads -->
+                <div class="menu-item" data-category="breads">
+                    <img src="https://images.unsplash.com/photo-1601050690597-df0568f70950?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80" alt="Naan">
+                    <div class="menu-item-content">
+                        <h3>Butter Naan</h3>
+                        <p>Soft leavened bread brushed with butter</p>
+                        <span class="price">$3.99</span>
+                    </div>
+                </div>
+
+                <div class="menu-item" data-category="breads">
+                    <img src="https://images.unsplash.com/photo-1563379091339-03246963d60a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80" alt="Roti">
+                    <div class="menu-item-content">
+                        <h3>Whole Wheat Roti</h3>
+                        <p>Healthy whole wheat flatbread</p>
+                        <span class="price">$2.99</span>
+                    </div>
+                </div>
+
+                <!-- Desserts -->
+                <div class="menu-item" data-category="desserts">
+                    <img src="https://images.unsplash.com/photo-1585937421612-70a008356fbe?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80" alt="Gulab Jamun">
+                    <div class="menu-item-content">
+                        <h3>Gulab Jamun</h3>
+                        <p>Sweet milk dumplings in rose-flavored syrup</p>
+                        <span class="price">$6.99</span>
+                    </div>
+                </div>
+
+                <div class="menu-item" data-category="desserts">
+                    <img src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80" alt="Rasmalai">
+                    <div class="menu-item-content">
+                        <h3>Rasmalai</h3>
+                        <p>Soft cheese patties in sweetened milk</p>
+                        <span class="price">$7.99</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2 class="section-title">About Amma Bojanam</h2>
+                    <p>Amma Bojanam, meaning "Mother's Food" in Telugu, is more than just a restaurant - it's a celebration of authentic Indian cuisine and the love that goes into every home-cooked meal.</p>
+                    <p>Founded with the vision of bringing the warmth and flavors of traditional Indian cooking to our community, we take pride in serving dishes that remind you of your mother's kitchen.</p>
+                    <p>Our chefs bring decades of experience and passion to create dishes that are not just delicious but also healthy and made with the finest ingredients.</p>
+                </div>
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1565557623262-b51c2513a641?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" alt="Chef preparing food">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Contact Us</h2>
+            <p class="section-subtitle">Visit us or get in touch for reservations</p>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h3>Address</h3>
+                            <p>123 Spice Street<br>Downtown District<br>City, State 12345</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h3>Phone</h3>
+                            <p>(555) 123-4567</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3>Email</h3>
+                            <p>info@ammabojanam.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h3>Hours</h3>
+                            <p>Monday - Sunday<br>11:00 AM - 10:00 PM</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <form>
+                        <div class="form-group">
+                            <input type="text" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" placeholder="Your Phone">
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Your Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Amma Bojanam</h3>
+                    <p>Authentic Indian cuisine with love and tradition.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#menu">Menu</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Opening Hours</h4>
+                    <p>Monday - Sunday<br>11:00 AM - 10:00 PM</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Amma Bojanam. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
